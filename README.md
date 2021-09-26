@@ -1,12 +1,9 @@
-1. Korisnici mogu da ucestvuju u igri na srecu, placaju u ETH, cene su izrazene u dolarima
-2. Admin bira kada je lutrija zavrsena (centralizovano, ali ne utice na biranje pobednika)
-3. Lutrija ce izabrati rendom pobednika (decentralizovano)
+To test and overview this project go to : https://rinkeby.etherscan.io/ and search for this address:
 
-Testiranje:
+0x592043C8faf8c364e353Bb57028111090A4D2260 - this is the address of the last successful deployed Lottery contract
 
-1. mainnet-fork
-2. development (mocks)
-3. testnet
+The user needs installed browser extension called Metamask : https://metamask.io/ and user needs some test cryptovalues, Ethereum and Link tokens.
 
-Poslednje uspesno testiran contract je na adresi: 0x592043C8faf8c364e353Bb57028111090A4D2260
-# ethereum-lottery
+To test and change this project first clone this repository, after that install Ganache https://www.trufflesuite.com/ganache for some local testing and deploying and install Brownie https://github.com/eth-brownie/brownie find here in README.md how to install brownie.
+
+After that user can deploy this same or changed contract on testnets or to use this implementation for their own Ethereums project!
